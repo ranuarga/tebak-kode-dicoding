@@ -65,8 +65,8 @@ class Webhook extends Controller
         $this->response = $response;
         $this->logger = $logger;
         $this->logGateway = $logGateway;
-        $this->userGateway = $userGateway;
-        $this->questionGateway = $questionGateway;
+        // $this->userGateway = $userGateway;
+        // $this->questionGateway = $questionGateway;
  
         // create bot object
         $httpClient = new CurlHTTPClient(getenv('CHANNEL_ACCESS_TOKEN'));
