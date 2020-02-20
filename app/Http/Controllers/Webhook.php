@@ -57,9 +57,9 @@ class Webhook extends Controller
         Request $request,
         Response $response,
         Logger $logger,
-        EventLogGateway $logGateway,
-        UserGateway $userGateway,
-        QuestionGateway $questionGateway
+        EventLogGateway $logGateway
+        // ,UserGateway $userGateway,
+        // QuestionGateway $questionGateway
     ) {
         $this->request = $request;
         $this->response = $response;
