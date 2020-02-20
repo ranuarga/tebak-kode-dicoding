@@ -40,3 +40,4 @@ class UserGateway
                 'display_name' => $displayName
             ]);
     }
+}
