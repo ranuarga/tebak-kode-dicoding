@@ -42,11 +42,11 @@ class Webhook extends Controller
     /**
      * @var UserGateway
      */
-    private $userGateway;
-    /**
-     * @var QuestionGateway
-     */
-    private $questionGateway;
+    // private $userGateway;
+    // /**
+    //  * @var QuestionGateway
+    //  */
+    // private $questionGateway;
     /**
      * @var array
      */
